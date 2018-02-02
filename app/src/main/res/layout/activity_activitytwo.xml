@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.alex.intentdemo.Activitytwo">
+
+
+    <ImageView
+        android:id="@+id/waterfall"
+        android:layout_width="149dp"
+        android:layout_height="209dp"
+        android:src="@drawable/waterfall"
+        app:layout_constraintLeft_toLeftOf="parent"
+        tools:layout_editor_absoluteY="102dp" />
+
+    <ImageView
+        android:id="@+id/supermoon"
+        android:layout_width="184dp"
+        android:layout_height="189dp"
+        android:src="@drawable/supermoon"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_editor_absoluteY="102dp" />
+
+</android.support.constraint.ConstraintLayout>
